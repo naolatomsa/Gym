@@ -12,7 +12,8 @@ export default {
         saira: ['"Saira Condensed"', "sans-serif"], // Add the Saira Condensed font here
       },
       lineHeight: {
-        90: "0.9", // Custom line-height 90%
+        90: "0.9",
+        170: "1.7", // Custom line-height 90%
       },
     },
   },
