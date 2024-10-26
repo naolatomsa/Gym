@@ -41,15 +41,15 @@ function Footer() {
       <div className="flex justify-between px-24">
         <div className="flex gap-1 items-center">
           <img src={email} alt="email" style={{width:'20px'}} />
-          <h1 className="text-white font-saira leading-90 hover:underline">
+          <h1 className="text-white font-saira leading-90 hover:underline cursor-pointer">
             info@yourdomain.com
           </h1>
         </div>
         <div className="flex gap-5">
-          <h1 className="text-white font-saira leading-90">
+          <h1 className="text-white font-saira leading-90 cursor-pointer">
             Terms & conditions
           </h1>
-          <h1 className="text-white font-saira leading-90">privacy policy</h1>
+          <h1 className="text-white font-saira leading-90 cursor-pointer">privacy policy</h1>
         </div>
       </div>
     </div>

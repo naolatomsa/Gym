@@ -24,7 +24,7 @@ const Home = () => {
                 style={{ width: "40px", height: "40px" }}
                 alt="logo"
               />
-              <h1 className="text-white font-bold font-saira leading-90 text-[32px]">
+              <h1 className="text-white font-bold font-saira leading-90 text-[32px] cursor-pointer hover:text-gray-500">
                 BOXCHAMP
               </h1>
             </div>
