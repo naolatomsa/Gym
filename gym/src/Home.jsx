@@ -1,9 +1,12 @@
 import React from "react";
 import image from "./assets/Logo icon.svg";
-import { Button } from "@material-tailwind/react";
+import dumbbell from "./assets/dumbbell.png";
+import rumbbel from "./assets/rumbbel.png";
+import running from "./assets/running.png";
+
 const Home = () => {
   return (
-    <div className="flex justify-between">
+    <div className="relative">
       <div
         className="w-full h-screen bg-cover bg-center flex justify-between"
         style={{
@@ -46,6 +49,28 @@ const Home = () => {
               <button className="bg-[#E84444] py-2 px-4">SIGN UP</button>
             </li>
           </ul>
+        </div>
+      </div>
+      <div className=" flex justify-center items-center">
+        <div className="bg-white flex justify-center absolute top-[500px] px-24 gap-10 py-3 items-center">
+          <div className="flex flex-col justify-center items-center">
+            <img src={running} alt="running" style={{ width: "40px" }} />
+            <h1 className="font-saira font-bold text-[#E84444] text-[24px]">
+              CROSS-FIT
+            </h1>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <img src={dumbbell} alt="dumbbell" style={{ width: "40px" }} />
+            <h1 className="font-saira font-bold text-[#E84444] text-[24px]">
+              WEIGHTS
+            </h1>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <img src={rumbbel} alt="rumbbel" style={{ width: "40px" }} />
+            <h1 className="font-saira font-bold text-[#E84444] text-[24px]">
+              EXERCISE
+            </h1>
+          </div>
         </div>
       </div>
     </div>

@@ -2,13 +2,14 @@ import React from "react";
 import facebook from "./assets/icon-facebook.svg";
 import instagram from "./assets/icon-instagram.svg";
 import linkedn from "./assets/icon-linkedin.svg";
+import email from "./assets/email.svg";
 
 function Footer() {
   return (
     <div className="h-96 bg-black">
       <div className="flex justify-between items-center p-24">
         <div>
-          <h1 className="text-white flex flex-col text-[32px] font-saira leading-270">
+          <h1 className="text-white font-bold flex flex-col text-[32px] font-saira leading-270">
             <span>READY FOR YOUR </span>
             <div className="flex gap-1">
               <span className="text-[#E84444]">NEXT</span>
@@ -38,7 +39,8 @@ function Footer() {
         </div>
       </div>
       <div className="flex justify-between px-24">
-        <div>
+        <div className="flex gap-1 items-center">
+          <img src={email} alt="email" style={{width:'20px'}} />
           <h1 className="text-white font-saira leading-90 hover:underline">
             info@yourdomain.com
           </h1>
